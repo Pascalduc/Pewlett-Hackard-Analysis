@@ -31,7 +31,6 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 ```
-
 ![retiring_titles](data/retiring_titles.png)
 
 In the second deliverable, we joined three tables in order to select employees born in 1965 and still currently employed with the code below:
