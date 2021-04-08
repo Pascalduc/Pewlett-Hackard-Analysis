@@ -59,4 +59,4 @@ ORDER BY e.emp_no;
 This returned a list of employees who are close to retiring and who can be eligible for mentorship opportunity.
 
 ## Summary:
-Overall, this project improved our ability to make multiple queries using more than one table to answer our specific questions. Although the module instruction requested the number of retiring employees for deliverable one, we had to omit selecting for current employees to get the same table. Some employees may be retired for many years or even deceased with the module code so we would have to add the  ` to_date = '9999-01-01'` code to be more accurate.
+Overall, this project improved our ability to make multiple queries using more than one table to answer our specific questions. Although the module instruction requested the number of retiring employees for deliverable one, we had to omit selecting for current employees to get the same table. Some employees may be retired for many years or even deceased with the module instructions so we would have to add the  ` to_date = '9999-01-01'` code to be more accurate.
