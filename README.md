@@ -19,7 +19,7 @@ FROM retirement_titles
 ORDER BY emp_no, to_date DESC;
 ```
 
-![unique_titles](data/unique_titles.png)
+![unique_titles](Data/unique_titles.png)
 
 From the unique_titles table we counted the number of retiring employees using the following code:
 
@@ -31,7 +31,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 ```
-![retiring_titles](data/retiring_titles.png)
+![retiring_titles](Data/retiring_titles.png)
 
 In the second deliverable, we joined three tables in order to select employees born in 1965 and still currently employed with the code below:
 
@@ -54,7 +54,7 @@ AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 ```
 
-![mentorship_eligibilty](data/mentorship_eligibilty.png)
+![mentorship_eligibilty](Data/mentorship_eligibilty.png)
 
 This returned a list of employees who are close to retiring and who can be eligible for mentorship opportunity.
 
